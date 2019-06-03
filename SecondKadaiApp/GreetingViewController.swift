@@ -18,7 +18,7 @@ class GreetingViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        label.text = "\(str)さん、こんにちは!"
+        label.text = "こんにちは、\(str)さん"
     }
     
 
