@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,24 +15,24 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoG-Qq-fct">
-                                <rect key="frame" x="172" y="326" width="31" height="30"/>
+                                <rect key="frame" x="144.5" y="276" width="31" height="30"/>
                                 <state key="normal" title="進む"/>
                                 <connections>
                                     <segue destination="hFd-Ub-bl9" kind="show" id="PA0-Dc-ZXB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXk-b8-H4v">
-                                <rect key="frame" x="92" y="119" width="191" height="21"/>
+                                <rect key="frame" x="64.5" y="93" width="191" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="お名前" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OKv-hw-iqp">
-                                <rect key="frame" x="92" y="226" width="191" height="22"/>
+                                <rect key="frame" x="64.5" y="171" width="191" height="22"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -40,13 +40,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="kXk-b8-H4v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="99" id="05i-w2-l4S"/>
-                            <constraint firstItem="OKv-hw-iqp" firstAttribute="top" secondItem="kXk-b8-H4v" secondAttribute="bottom" constant="86" id="Ewe-eI-Wdi"/>
+                            <constraint firstItem="kXk-b8-H4v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="73" id="05i-w2-l4S"/>
+                            <constraint firstItem="OKv-hw-iqp" firstAttribute="top" secondItem="kXk-b8-H4v" secondAttribute="bottom" constant="57" id="Ewe-eI-Wdi"/>
                             <constraint firstItem="OKv-hw-iqp" firstAttribute="leading" secondItem="kXk-b8-H4v" secondAttribute="leading" id="JF8-EJ-zm6"/>
                             <constraint firstItem="OKv-hw-iqp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZNb-Q9-dhr"/>
                             <constraint firstItem="kXk-b8-H4v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="daI-bm-tG0"/>
                             <constraint firstItem="EoG-Qq-fct" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qC3-JR-2lG"/>
-                            <constraint firstItem="EoG-Qq-fct" firstAttribute="top" secondItem="OKv-hw-iqp" secondAttribute="bottom" constant="78" id="tc8-yO-lVf"/>
+                            <constraint firstItem="EoG-Qq-fct" firstAttribute="top" secondItem="OKv-hw-iqp" secondAttribute="bottom" constant="83" id="tc8-yO-lVf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -63,17 +63,17 @@
             <objects>
                 <viewController title="Hello" id="hFd-Ub-bl9" customClass="GreetingViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SCY-rx-H9v">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfn-67-eVq">
-                                <rect key="frame" x="166.5" y="170" width="42" height="21"/>
+                                <rect key="frame" x="139" y="170" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGr-Y5-Bni">
-                                <rect key="frame" x="172" y="387" width="31" height="30"/>
+                                <rect key="frame" x="144.5" y="288" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="SAo-nc-48a" kind="unwind" unwindAction="unwind:" id="lfc-Ml-2E1"/>
